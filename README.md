@@ -8,17 +8,73 @@ subjects plug into the same shell.
 
 No accounts, no services, no dependencies. Python 3.10+ and a browser.
 
-## Launch
+## Get it
+
+**Option A — download the ZIP (no git needed)**
+
+1. On this page, click the green **Code** button → **Download ZIP**.
+2. Unzip it anywhere (Desktop is fine). You get a folder called
+   `start-small-main`.
+
+**Option B — clone**
 
 ```bash
+git clone https://github.com/TommyDeLeon/start-small.git
+```
+
+**Then make sure Python is installed.** Open a terminal (on Windows:
+press the Windows key, type `cmd`, Enter) and run:
+
+```bash
+python --version
+```
+
+If that prints `Python 3.10` or higher, you are set. If it says Python is
+not recognised, install it from [python.org/downloads](https://www.python.org/downloads/)
+and tick **"Add python.exe to PATH"** in the installer, then reopen the
+terminal.
+
+## Launch
+
+In the terminal, go into the unzipped folder and run the app:
+
+```bash
+cd path/to/start-small-main
 python app.py
 ```
 
+(On Windows you can also open the folder in Explorer, click the address
+bar, type `cmd`, press Enter, and then run `python app.py`.)
+
 That starts a server on `http://127.0.0.1:8765/` and opens your browser.
-`Ctrl+C` stops it; nothing keeps running. Progress lives in
-`data/startsmall.db` — delete that file to start over.
+Leave the terminal window open while you use it. `Ctrl+C` in the terminal
+stops it; nothing keeps running afterwards.
+
+Your progress lives in `data/startsmall.db` inside the folder. It never
+leaves your computer. Delete that file to start over; keep it when you
+update the app.
 
 Options: `--no-open` (don't open the browser), `--port 8766`, `--db PATH`.
+
+## Using it
+
+- **Start small** — the one prepared action. About two minutes. Predict what
+  code prints, fix one line, or build something tiny.
+- **Check** — honest feedback that names the exact line or test. Wrong
+  guesses are fine; that is how the explanation lands.
+- **Hint 1 → 2 → 3** — a nudge, then a partial example, then the worked
+  solution. If you view the solution, you get a fresh small version to do
+  on your own before the idea counts as yours.
+- **Too hard / Too easy / Explain differently / Stop** — always available.
+- **One more / Finish here** — after each activity. Stopping is a real
+  choice, not a failure; the next step is already saved.
+- **I don't feel like it** — one tiny action, then you are done. It counts
+  as showing up.
+- **Collection** — things you can now do. **Two weeks** — whether you are
+  coming back and whether understanding is growing. **Tasks** — turn a vague
+  everyday task into a physical next action with a stop point.
+  **Settings** — session lengths, your cue, and switches for every
+  motivational feature.
 
 ## Your first tiny session
 
