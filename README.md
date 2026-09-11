@@ -187,6 +187,21 @@ optional enjoyment and frustration. Plus a few plain-language readings.
 Personal observations, not proof; see `RESEARCH.md` §10 for how to act on
 them.
 
+## What it covers, and what comes after
+
+The Python track covers the first stretch of learning to program — roughly
+the first six weeks of a CS50P-style course: printing, variables and
+input, numbers, decisions, `for` and `while` loops, lists, functions,
+string methods, and dictionaries. Ten concepts, sixty-three activities,
+each ending in something small you built.
+
+When you have worked through it and want to keep going — data structures,
+algorithms, and real problem sets with a judge that runs your code against
+tests — continue with **[CodeLock](https://github.com/TommyDeLeon/codelock)**,
+by the same author. It picks up where this leaves off: 685 problems from
+foundations through core patterns, served in prerequisite order, with
+editorials and reference solutions.
+
 ## Adding a subject
 
 Copy `startsmall/content/python_track.py` to `<name>_track.py`, keep the
