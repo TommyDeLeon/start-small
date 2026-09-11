@@ -202,6 +202,11 @@ by the same author. It picks up where this leaves off: 685 problems from
 foundations through core patterns, served in prerequisite order, with
 editorials and reference solutions.
 
+Fair warning: CodeLock is a bigger install than this one. It needs Node.js
+24 and Docker Desktop, and a few minutes of setup following its README,
+because it runs your code in real containers. Worth it once the basics
+here feel easy.
+
 ## Adding a subject
 
 Copy `startsmall/content/python_track.py` to `<name>_track.py`, keep the
